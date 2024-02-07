@@ -1,0 +1,38 @@
+:root {
+      --height-nav: 70px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background: #fcaaf6;
+      height: 80px;
+    }
+
+    .nav_container {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+    ul li {
+      list-style: none;
+      float: left;
+    }
+
+    ul li a {
+      color: white;
+      padding: 8px;
+      text-decoration: none;
+    }
+
+    li :hover {
+      background-color: #434343;
+    }
